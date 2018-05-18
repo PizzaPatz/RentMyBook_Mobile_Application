@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/white">
+
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/book_image"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="20dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="desc"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/author"
+            android:layout_alignTop="@+id/book_image"
+            android:text="@string/title"
+            android:textColor="@color/colorText"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_toEndOf="@+id/book_image"
+            android:text="@string/author"
+            android:textColor="@color/colorText" />
+
+        <TextView
+            android:id="@+id/isbn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/book_image"
+            android:layout_below="@+id/author"
+            android:text="ISBN"
+            android:textColor="@color/colorText" />
+
+        <TextView
+            android:id="@+id/label_owner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="250dp"
+            android:text="@string/owner"
+            android:textColor="@color/colorText"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/label_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/label_owner"
+            android:layout_alignBottom="@+id/label_owner"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@+id/label_owner"
+            android:text="@string/price"
+            android:textColor="@color/colorText"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/label_condition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="250dp"
+            android:layout_toEndOf="@+id/label_price"
+            android:text="@string/condition"
+            android:textColor="@color/colorText"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/label_available"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="250dp"
+            android:layout_toEndOf="@+id/label_condition"
+            android:text="@string/label_avail"
+            android:textColor="@color/colorText"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relative1"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/owner_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

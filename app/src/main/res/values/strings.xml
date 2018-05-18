@@ -1,0 +1,81 @@
+<!DOCTYPE resources [
+    <!ENTITY clientId "1d638361-c17b-4079-9f29-9e4e9f1dda61">
+    ]>
+
+<resources>
+    <string name="app_name">RentMyBookFinal</string>
+
+    <!-- Manifest -->
+    <string name="client_Id">&clientId;</string>
+    <string name="msalPrefix">msal&clientId;</string>
+
+    <!-- Login Page -->
+    <string name="connect_button">Sign In</string>
+    <string name="general_connection_error">Connection Error</string>
+    <string name="user_cancelled">Cancelled by User</string>
+
+    <!-- Nav Header -->
+    <string name="profile_picture">Profile picture</string>
+    <string name="logout">Sign Out</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Search book -->
+    <string name="search">Title / Author / ISBN</string>
+
+    <!-- Book Details -->
+
+    <string name="label_avail">Available</string>
+
+    <!-- Owner -->
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="owner">Owner</string>
+    <string name="price">Price</string>
+    <string name="condition">Condition</string>
+    <string name="available"><u>Available</u></string>
+
+    <!-- Reward Page Content -->
+    <string-array name="Item_names">
+        <item>49er Water Bottle</item>
+        <item>CSULB Hat</item>
+        <item>CSULB T-Shirt</item>
+        <item>CSULB Hoodie</item>
+        <item>$25 Amazon Gift Card</item>
+        <item>$25 Apple Gift Card</item>
+        <item>$50 Visa Gift Card</item>
+    </string-array>
+
+    <string-array name="Required_point">
+        <item>1000</item>
+        <item>1500</item>
+        <item>1700</item>
+        <item>2500</item>
+        <item>2500</item>
+        <item>2500</item>
+        <item>5000</item>
+    </string-array>
+
+    <string-array name="Item_info">
+        <item>32oz water bottle with white imprint features and LB logo.</item>
+        <item>Dark grey hat with LB logo on the front and beach of the side.</item>
+        <item>Black t-shirt with "CAL STATE UNIVERSITY LONG BEACH" on the front.</item>
+        <item>Black hoodie with yellow LBSU logo.</item>
+        <item>$25 gift card to shop on Amazon.com.</item>
+        <item>$25 gift card to shop at the Apple Store.</item>
+        <item>$50 Visa gift card to shop anywhere you like.</item>
+    </string-array>
+
+    <array name="Item_images">
+        <item>@drawable/bottle</item>
+        <item>@drawable/hat</item>
+        <item>@drawable/shirt</item>
+        <item>@drawable/hoodie</item>
+        <item>@drawable/amazon</item>
+        <item>@drawable/apple</item>
+        <item>@drawable/visa</item>
+
+    </array>
+
+</resources>

@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "566547626136",
+    "firebase_url": "https://rentmybook-30c9e.firebaseio.com",
+    "project_id": "rentmybook-30c9e",
+    "storage_bucket": "rentmybook-30c9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566547626136:android:7a54418e91d3ea17",
+        "android_client_info": {
+          "package_name": "com.app.csulb.rentmybook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566547626136-rldcpd9lbpdplfdfnd5qucfvmlkuslli.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.csulb.rentmybook",
+            "certificate_hash": "1d0151a4325bb21caecb5c41d344f6c1090ed346"
+          }
+        },
+        {
+          "client_id": "566547626136-g2j9c8br8a02ardrvttcmc60lkonvu3r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.csulb.rentmybook",
+            "certificate_hash": "e0bf000f299b2e026ce29449235f35f2330352d5"
+          }
+        },
+        {
+          "client_id": "566547626136-ps9jc6o3ka1ucelvdk3shp2lo1fu3u55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCz474SslI4QprSeVbw1ACmsn_P4ocCxA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "566547626136-ps9jc6o3ka1ucelvdk3shp2lo1fu3u55.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566547626136:android:857149eb1945a97a",
+        "android_client_info": {
+          "package_name": "com.app.csulb.rentmybookfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566547626136-alm2ckpqpke1p0ae0qn96lu8qolva7va.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.csulb.rentmybookfinal",
+            "certificate_hash": "e0bf000f299b2e026ce29449235f35f2330352d5"
+          }
+        },
+        {
+          "client_id": "566547626136-ps9jc6o3ka1ucelvdk3shp2lo1fu3u55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCz474SslI4QprSeVbw1ACmsn_P4ocCxA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "566547626136-ps9jc6o3ka1ucelvdk3shp2lo1fu3u55.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

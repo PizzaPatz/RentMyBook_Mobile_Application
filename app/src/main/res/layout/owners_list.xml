@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/owner"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="31dp"
+        android:text="@string/owner"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="31dp"
+        android:layout_toEndOf="@+id/owner"
+        android:text="@string/price"
+        android:textSize="14dp"
+        android:textColor="@color/colorText"
+        />
+
+    <TextView
+        android:id="@+id/condition"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/price"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="31dp"
+        android:text="@string/condition"
+        android:textSize="14dp"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:id="@+id/available"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/condition"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="31dp"
+        android:text="@string/available"
+        android:textSize="14dp"
+        android:textColor="@color/colorText"/>
+
+</RelativeLayout>

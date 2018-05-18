@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    android:padding="2dp">
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:adjustViewBounds="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="73dp"
+        android:contentDescription="desc"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="11dp"
+        android:text="Name of item"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/item_name"
+        android:layout_toEndOf="@+id/item_point"
+        android:layout_marginTop="21dp"
+        android:text=" Points"
+        android:textSize="14dp"
+        android:id="@+id/textView4"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:id="@+id/item_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignStart="@+id/item_name"
+        android:text="Total Points"
+        android:textSize="14dp"
+        android:textColor="@color/colorText"/>
+
+</RelativeLayout>

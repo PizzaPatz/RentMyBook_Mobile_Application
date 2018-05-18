@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/fountain"
+        android:clipChildren="false">
+        <TextView
+            android:paddingStart="30dp"
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="bottom"
+            android:text="You have "
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="12pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_point"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_toStartOf="@+id/textView2"
+            android:layout_toEndOf="@+id/textView1"
+            android:gravity="bottom"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_toEndOf="@+id/text_point"
+            android:gravity="bottom"
+            android:text=" points"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="12pt"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Reward" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Payment" />
+
+
+
+</RelativeLayout>
