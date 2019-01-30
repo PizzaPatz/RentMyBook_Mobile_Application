@@ -1,5 +1,6 @@
 # RentMyBook_Mobile_Application
 
+![menu](https://github.com/PizzaPatz/RentMyBook_Mobile_Application/blob/master/Screenshots/rentmybook.png)
 
 ## About
 Group project from Mobile Application Development course at California State University, Long Beach. The app helps a student to organizes their rental to another student via the app. The authentication system is linked directly to students account via Microsoft API. We use Firebase to keep track on extra user data beside name, email, and phone number from their student account, such as profile picture, reward points, and books that the user own.
@@ -30,3 +31,9 @@ every semester
 + We hope that our idea will give rise to
 more innovative ways for students to
 save money
+
+![menu](https://github.com/PizzaPatz/RentMyBook_Mobile_Application/blob/master/Screenshots/rentmybook2.png)
+
+![menu](https://github.com/PizzaPatz/RentMyBook_Mobile_Application/blob/master/Screenshots/rentmybook3.png)
+
+![menu](https://github.com/PizzaPatz/RentMyBook_Mobile_Application/blob/master/Screenshots/rentmybook4.png)
